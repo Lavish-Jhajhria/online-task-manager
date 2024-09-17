@@ -1,0 +1,56 @@
+/* src/components/TaskItem.css */
+
+.task-item {
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .task-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-item h3 {
+    margin-bottom: 5px;
+    color: #0066cc; /* Primary color for task titles */
+  }
+  
+  .task-item p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .task-item button {
+    background-color: #ff6666; /* Button color for delete */
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+  }
+  
+  .task-item button:hover {
+    background-color: #e63946; /* Darker red on hover */
+  }
+  
+  .task-item button:nth-child(2) {
+    background-color: #4caf50; /* Green for edit */
+  }
+  
+  .task-item button:nth-child(2):hover {
+    background-color: #388e3c; /* Darker green on hover */
+  }
+  

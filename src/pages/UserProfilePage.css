@@ -1,0 +1,30 @@
+/* src/pages/UserProfilePage.css */
+
+.profile-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-container h2 {
+    color: #0066cc; /* Primary color for heading */
+    margin-bottom: 10px;
+    font-size: 1.8em;
+  }
+  
+  .profile-container input {
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    width: calc(100% - 26px);
+  }
+  
+  .profile-container input:focus {
+    border-color: #0066cc; /* Focus color */
+  }
+  
